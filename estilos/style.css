@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-titulo: "Passion One", sans-serif;; 
+    --fonte-sub: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-texto: "Sriracha", cursive;;
+    --cor1: #000000;
+    --cor2: #ffffff;
+    --cor3: #00000062;
+    --cor4: #0000008c;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    max-width: 100vw;
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+header > h1{
+    font-family: var(--fonte-titulo);
+    font-size: 10vw;
+    font-weight: normal;
+    text-align: center;
+    padding: 40px 10px 5px 10px;
+}
+
+header > p{
+    font-family: var(--fonte-sub);
+    text-align: center;
+    padding: 0px 0px 45px 0px;
+}
+
+header a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-family: var(--fonte-texto);
+}
+
+.normal {
+    line-height: 2em;
+    font-size: 3.5vw;
+    margin:  20px 0px 100px 20px;
+}
+
+.imagem p{
+    font-size: 3.5vw;
+    line-height: 2em;
+    color: var(--cor2);
+    background-color: var(--cor3);
+    text-shadow: 1px 2px 5px var(--cor1);
+    display: inline-block;
+}
+
+#img1{
+    background: url('../imagens/background001.jpg') center right no-repeat fixed;
+    /*background-image: url('imagens/background001.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center right;*/
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px var(--cor4);
+    padding: 100px 30px;
+}
+
+#img2{
+    background: url('../imagens/background002.jpg') center right no-repeat fixed;
+    /*background-image: url('imagens/background001.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center right;*/
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px var(--cor4);
+    padding: 100px 30px;
+}
+
+footer{
+    background-color: var(--cor1);
+    padding: 7px;
+    color: var(--cor2);
+    text-align: center;
+}
+footer p{
+    font-weight: 100;
+    font-family: var(--fonte-sub);
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
