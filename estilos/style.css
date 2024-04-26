@@ -73,7 +73,7 @@ p{
     /*background-attachment: fixed;*/
     background-size: cover;
     box-shadow: inset 6px 6px 13px var(--cor4);
-    padding: 100px 30px;
+    padding: 40px 15px;
 }
 
 #img2{
@@ -84,7 +84,7 @@ p{
     /*background-attachment: fixed;*/
     background-size: cover;
     box-shadow: inset 6px 6px 13px var(--cor4);
-    padding: 100px 30px;
+    padding: 40px 15px;
 }
 
 footer{
